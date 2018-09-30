@@ -1,0 +1,13 @@
+.header {
+  background-color: $white;
+  &__contacts {
+    padding: 20px 0;
+    border-bottom: 1px solid #dedede;
+  }
+  &__menu {
+    padding: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

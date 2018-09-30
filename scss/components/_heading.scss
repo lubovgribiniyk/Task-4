@@ -1,0 +1,23 @@
+.heading {
+  margin: 0 0 35px;
+  font-size: 2.85rem;
+  font-weight: 600;
+  color: $primary;
+  line-height: 3rem;
+  letter-spacing: 1px;
+  &_underlined {
+    text-decoration: underline;
+  }
+  &_big {
+    margin-bottom: 25px;
+    font-size: 3.42rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  &__tag {
+    color: $yellow;
+  }
+  &_white {
+    color: $white;
+  }
+}

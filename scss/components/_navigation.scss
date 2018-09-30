@@ -1,0 +1,20 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  &__item {
+    margin: 0 20px;
+  }
+  &__link {
+    padding: 4px;
+    display: block;
+    font-size: 1.285rem;
+    font-weight: 700;
+    color: $black;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.contacts {
+  display: flex;
+  justify-content: flex-start;
+  &__item {
+    margin-right: 50px;
+    color: $gray;
+    font-weight: 400;
+  }
+  &__icon {
+    margin-right: 10px;
+    font-size: 1.285rem;
+    color: $primary;
+  }
+}

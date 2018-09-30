@@ -1,0 +1,27 @@
+.button {
+  border: none;
+  padding: 14px 17px;
+  background-color: $primary;
+  font-size: .85rem;
+  font-weight: 600;
+  color: $white;
+  line-height: 1rem;
+  text-transform: uppercase;
+  transition: background-color linear 0.3s;
+  letter-spacing: 2.5px;
+  &:hover {
+    background-color: $black;
+  }
+  &:focus {
+    outline: 0;
+  }
+  &_yellow {
+    background-color: $yellow;
+  }
+  @media only screen and (max-width: $md) {
+    padding: 10px;
+  }
+  @media only screen and (max-width: $sm) {
+    padding: 8px;
+  }
+}
