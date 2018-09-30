@@ -1,0 +1,60 @@
+.banner-slider {
+  position: relative;
+  padding: 15.5% 0;
+  background: url("../../img/img-banner-slider.jpg") no-repeat top center;
+  background-size: cover;
+  &__container {
+    padding-left: 14%;
+  }
+  &__heading {
+    margin: 0 0 15px;
+    font-size: 14.9rem;
+    font-weight: 600;
+    color: $primary;
+    line-height: 1;
+  }
+  &__subheading {
+    font-size: 4.42rem;
+    font-weight: 600;
+    color: $primary;
+    line-height: 1;
+  }
+  &__nav {
+    position: absolute;
+    bottom: 48px;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    transform: translate(-50%);
+
+  }
+  &__nav-item {
+    margin: 0 5px;
+    border: 1px solid $white;
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+    background-color: transparent;
+    transition: background-color linear 0.3s;
+    &:hover,
+    &_active {
+      background-color: $white;
+    }
+  }
+  @media only screen and (max-width: $lg) {
+    &__heading {
+      font-size: 10rem;
+    }
+    &__subheading {
+      font-size: 3rem;
+    }
+  }
+  @media only screen and (max-width: $sm) {
+    &__heading {
+      font-size: 6rem;
+    }
+    &__subheading {
+      font-size: 2rem;
+    }
+  }
+}
