@@ -6,76 +6,152 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fashion Shop Boutique</title>
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.1/css/font-awesome.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.css">
   <link rel="stylesheet" href="dist/style.css">
 </head>
 
 <body>
-<header class="header">
-  <div class="header__contacts">
-    <div class="contacts container">
-      <a class="contacts__item link" href="tel:+99 (0) 101 0000 888">
-        <i class="fas fa-phone contacts__icon"></i>
-        <span>+99 (0) 101 0000 888</span>
+  <header class="header">
+    <div class="header__contacts">
+      <div class="contacts container">
+        <a class="contacts__item link" href="tel:+99 (0) 101 0000 888">
+          <i class="fa fa-phone contacts__icon"></i>
+          <span>+99 (0) 101 0000 888</span>
+        </a>
+        <a class="contacts__item link" href="mailto:info@yourdomain.com">
+          <i class="fa fa-envelope contacts__icon"></i>
+          <span>info@yourdomain.com</span>
+        </a>
+      </div>
+    </div>
+    <div class="header__menu container">
+      <a href="/" class="header__logo link">
+        <img class="header__logo-img" src="img/logo.png" alt="logo">
       </a>
-      <a class="contacts__item link" href="mailto:info@yourdomain.com">
-        <i class="fas fa-envelope contacts__icon"></i>
-        <span>info@yourdomain.com</span>
-      </a>
+      <ul class="header__nav navigation list">
+        <li class="navigation__item">
+          <a class="navigation__link link" href="#">home</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link link" href="#">shop</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link link" href="#">blog</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link link" href="#">about us</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link link" href="#">contact us</a>
+        </li>
+      </ul>
+      <ul class="user-menu list">
+        <li class="user-menu__item">
+          <a href="/" class="user-menu__link">
+            <i class="fa fa-user"></i>
+          </a>
+        </li>
+        <li class="user-menu__item">
+          <a href="/" class="user-menu__link">
+            <i class="fa fa-search"></i>
+          </a>
+        </li>
+        <li class="user-menu__item">
+          <a href="/" class="user-menu__link">
+            <i class="fa fa-shopping-bag"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <section class="banner-slider">
+    <div class="banner-slider__container container">
+      <h1 class="banner-slider__heading">Sale</h1>
+      <div class="banner-slider__subheading">Up to 50% Off</div>
+      <div class="banner-slider__nav">
+        <a href="/" class="banner-slider__nav-item"></a>
+        <a href="/" class="banner-slider__nav-item banner-slider__nav-item_active"></a>
+        <a href="/" class="banner-slider__nav-item"></a>
+      </div>
+    </div>
+  </section>
+  <section class="sale-products">
+    <div class="container">
+      <h2 class="heading heading_underlined sale-products__heading">Sale Products</h2>
+      <div class="products">
+        <div class="products__item">
+          <img src="img/img-products-1.jpg" class="products__img" alt="sale-product">
+          <div class="products__rating">
+            <i class="fa fa-star products__rating-item"></i>
+            <i class="fa fa-star products__rating-item"></i>
+            <i class="fa fa-star products__rating-item"></i>
+            <i class="fa fa-star products__rating-item"></i>
+            <i class="fa fa-star products__rating-item"></i>
+          </div>
+          <div class="products__title">Embroidered Linen Shirt</div>
+          <div class="products__price">$30.50</div>
+          <button class="button">Add to Cart</button>
+        </div>
+        <div class="products__item">
+          <img src="img/img-products-2.jpg" class="products__img" alt="sale-product">
+          <div class="products__rating">
+            <i class="fa fa-star products__rating-item"></i>
+            <i class="fa fa-star products__rating-item"></i>
+            <i class="fa fa-star products__rating-item"></i>
+            <i class="fa fa-star products__rating-item"></i>
+            <i class="fa fa-star products__rating-item"></i>
+          </div>
+          <div class="products__title">Embroidered Linen Shirt</div>
+          <div class="products__price">$30.50</div>
+          <button class="button">Add to Cart</button>
+        </div>
+        <div class="products__item">
+        <img src="img/img-products-3.jpg" class="products__img" alt="sale-product">
+        <div class="products__rating">
+          <i class="fa fa-star products__rating-item"></i>
+          <i class="fa fa-star products__rating-item"></i>
+          <i class="fa fa-star products__rating-item"></i>
+          <i class="fa fa-star products__rating-item"></i>
+          <i class="fa fa-star products__rating-item"></i>
+        </div>
+        <div class="products__title">Embroidered Linen Shirt</div>
+        <div class="products__price">$30.50</div>
+        <button class="button">Add to Cart</button>
+      </div>
+        <div class="products__item">
+          <img src="img/img-products-4.jpg" class="products__img" alt="sale-product">
+          <div class="products__rating">
+            <i class="fa fa-star products__rating-item"></i>
+            <i class="fa fa-star products__rating-item"></i>
+            <i class="fa fa-star products__rating-item"></i>
+            <i class="fa fa-star products__rating-item"></i>
+            <i class="fa fa-star products__rating-item"></i>
+          </div>
+          <div class="products__title">Embroidered Linen Shirt</div>
+          <div class="products__price">$30.50</div>
+          <button class="button">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="offers">
+    <div class="container">
+      <div class="offers__container">
+        <div class="offers__item offers__item_1">
+          <div class="offers__label">sale up to</div>
+          <div class="offers__item-title">Kemeks</div>
+          <div class="offers__subtitle">Be Cool</div>
+          <a href="/" class="offers__link">detail more</a>
+        </div>
+        <div class="offers__item offers__item_2">
+          <div class="offers__item-title">40%</div>
+          <div class="offers__subtitle">off everything</div>
+          <a href="/" class="offers__link">shop now</a>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="header__menu container">
-    <a href="/" class="header__logo link">
-      <img class="header__logo-img" src="img/logo.png" alt="logo">
-    </a>
-    <ul class="header__nav navigation list">
-      <li class="navigation__item">
-        <a class="navigation__link link" href="#">home</a>
-      </li>
-      <li class="navigation__item">
-        <a class="navigation__link link" href="#">shop</a>
-      </li>
-      <li class="navigation__item">
-        <a class="navigation__link link" href="#">blog</a>
-      </li>
-      <li class="navigation__item">
-        <a class="navigation__link link" href="#">about us</a>
-      </li>
-      <li class="navigation__item">
-        <a class="navigation__link link" href="#">contact us</a>
-      </li>
-    </ul>
-    <ul class="user-menu list">
-      <li class="user-menu__item">
-        <a href="/" class="user-menu__link">
-          <i class="fas fa-user"></i>
-        </a>
-      </li>
-      <li class="user-menu__item">
-        <a href="/" class="user-menu__link">
-          <i class="fas fa-search"></i>
-        </a>
-      </li>
-      <li class="user-menu__item">
-        <a href="/" class="user-menu__link">
-          <i class="fas fa-shopping-bag"></i>
-        </a>
-      </li>
-    </ul>
-  </div>
-</header>
-<section class="banner-slider">
-  <div class="banner-slider__container container">
-    <h1 class="banner-slider__heading">Sale</h1>
-    <div class="banner-slider__subheading">Up to 50% Off</div>
-    <div class="banner-slider__nav">
-      <a href="/" class="banner-slider__nav-item"></a>
-      <a href="/" class="banner-slider__nav-item banner-slider__nav-item_active"></a>
-      <a href="/" class="banner-slider__nav-item"></a>
-    </div>
-  </div>
-</section>
 
 </body>
 

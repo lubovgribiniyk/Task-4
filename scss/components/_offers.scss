@@ -1,0 +1,58 @@
+.offers {
+  margin-bottom: 126px;
+  &__container {
+    margin: 0 -15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 15px;
+    padding: 55px 0;
+    width: 50%;
+    text-align: center;
+  }
+  &__item_1 {
+    background-color: #f9e1e9;
+  }
+  &__item_2 {
+    background: url("../../img/bg-offers.jpg") no-repeat 0 0;
+    background-size: cover;
+  }
+  &__item-title {
+    margin-bottom: 10px;
+    font-size: 7.5rem;
+    line-height: 7.7rem;
+    color: $white;
+    font-weight: 700;
+  }
+  &__subtitle {
+    margin-bottom: 20px;
+    font-size: 1.28rem;
+    line-height: 1.3rem;
+    color: $white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  &__link {
+    font-size: 1.4rem;
+    color: $white;
+    line-height: 1.5rem;
+    text-decoration: underline;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  &__label {
+    margin: 0 auto 32px;
+    padding: 10px;
+    width: 136px;
+    background-color: #feecec;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.6rem;
+    color: #333333;
+  }
+}
