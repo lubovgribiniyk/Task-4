@@ -1,0 +1,25 @@
+.counter {
+  display: flex;
+  &__item {
+    margin: 0 10px 58px;
+    padding: 20px 5px 5px;
+    border: 1px solid $white;
+    width: 116px;
+    height: 116px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  &__number {
+    margin-bottom: 10px;
+    font-size: 3.7rem;
+    font-weight: 700;
+    color: $primary;
+    line-height: 1;
+  }
+  &__text {
+    font-size: 0.93rem;
+    color: $primary;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}

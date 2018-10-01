@@ -17,6 +17,9 @@
   }
   &_yellow {
     background-color: $yellow;
+    &:hover {
+      background-color: #f4d06f;
+    }
   }
   @media only screen and (max-width: $md) {
     padding: 10px;
