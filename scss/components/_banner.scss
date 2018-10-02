@@ -1,0 +1,34 @@
+.banner {
+  margin-bottom: 90px;
+  text-align: center;
+  &__holder {
+    padding: 90px 0 105px;
+    background: url("../../img/bg-banner.jpg") no-repeat top center;
+    background-size: cover;
+  }
+  &__heading {
+    margin-bottom: 35px;
+    line-height: 1;
+  }
+  &__subheading {
+    margin: 0 0 45px;
+    font-size: 1.28rem;
+    font-weight: 400;
+    color: $black;
+    letter-spacing: 6px;
+    line-height: 1.4;
+    text-transform: uppercase;
+  }
+  &__btn {
+    font-size: 1.28rem;
+    font-weight: 700;
+    background-color: #ffff00;
+    color: $black;
+    line-height: 1;
+    letter-spacing: 3.5px;
+    &:hover {
+      background-color: $yellow;
+      color: $black;
+    }
+  }
+}
