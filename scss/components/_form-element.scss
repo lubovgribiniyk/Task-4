@@ -1,0 +1,19 @@
+.form-element {
+  border: 1px solid $primary;
+  padding: 10px 16px;
+  width: 360px;
+  height: 50px;
+  background-color: transparent;
+  font-size: 1.14rem;
+  font-weight: 400;
+  color: $primary;
+  box-sizing: border-box;
+  &::placeholder {
+    font-size: 1.14rem;
+    font-weight: 400;
+    color: $primary;
+  }
+  &:focus {
+    outline: none;
+  }
+}
