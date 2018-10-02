@@ -1,0 +1,8 @@
+.payment {
+  display: flex;
+  margin: 0 -6px;
+  align-items: center;
+  &__item {
+    margin: 0 6px;
+  }
+}

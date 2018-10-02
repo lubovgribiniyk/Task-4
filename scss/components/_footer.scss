@@ -1,0 +1,50 @@
+.footer {
+  padding-top: 2.6%;
+  &__container {
+    max-width: 1140px;
+  }
+  &__logo {
+    display: block;
+    margin-bottom: 50px;
+  }
+  &__panel {
+    padding: 0 0 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__panel-item {
+    width: 25%;
+    max-width: 262px;
+  }
+  &__title {
+    margin: 0 0 35px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  &__nav-item {
+    margin-bottom: 12px;
+    display: flex;
+    color: $light-gray;
+  }
+  &__copyright {
+    padding: 48px 0;
+    text-align: left;
+  }
+  &__copyright-text {
+    color: $light-gray;
+  }
+  &__link {
+    color: $light-gray;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  &__icon {
+    width: 18px;
+    margin-right: 18px;
+    font-size: 18px;
+    text-align: center;
+  }
+}
